@@ -17,9 +17,11 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body>
         <Providers>
-          <div className="flex flex-col bg-gray-100">
+          <div className="flex flex-col ">
             <Navbar />
-            {children}
+            <div className="flex flex-col bg-foreground">
+              {children}
+            </div>
             <Footer />
           </div>
         </Providers>
