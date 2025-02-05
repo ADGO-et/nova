@@ -5,7 +5,7 @@ import { useState, useEffect } from 'react'
 import { useTheme } from 'next-themes'
 import Image from "next/image"
 
-export default function ThemeSwitch() {
+export default function ThemeSwitch({ className }: {className?: string}) {
   const [mounted, setMounted] = useState(false)
   const { setTheme, resolvedTheme } = useTheme()
 
@@ -20,15 +20,16 @@ export default function ThemeSwitch() {
       alt="Loading Light/Dark Toggle"
       priority={false}
       title="Loading Light/Dark Toggle"
+      className={className}
     />
   )
 
   if (resolvedTheme === 'dark') {
-    return <FiSun onClick={() => setTheme('light')} />
+    return <FiSun  className={className} onClick={() => setTheme('light')} />
   }
 
   if (resolvedTheme === 'light') {
-    return <FiMoon onClick={() => setTheme('dark')} />
+    return <FiMoon  className={className} onClick={() => setTheme('dark')} />
   }
 
 }
