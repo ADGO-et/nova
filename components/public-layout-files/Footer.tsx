@@ -67,7 +67,7 @@ const Footer = () => {
           </div>
         </div>
         <div className='border border-foreground w-full bg-background' />
-        <Image src='/logo.png' alt='logo' width={120} height={71.74} className='ml-12 md:ml-44 '/>
+        <Image src='/logo.png' alt='logo' width={100} height={71.74} className='ml-12 md:ml-44 '/>
       </div>
     </div>
   )
