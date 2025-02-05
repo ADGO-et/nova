@@ -23,7 +23,7 @@ const Navbar = () => {
     <nav className="sticky top-0 z-10 bg-background px-8 py-4 shadow-4xl shadow-white">
       <div className="container mx-auto flex items-center justify-between">
         <Link href={"/"}>
-          <Image src={logo} alt="logo" width={120} height={71.74} />
+          <Image src={logo} alt="logo" width={100} height={71.74} />
         </Link>
 
         {/* Desktop Links */}
@@ -36,9 +36,15 @@ const Navbar = () => {
         </ul>
 
         <div className="hidden md:flex gap-4">
-          <ThemeSwitch />
-          <BsKeyFill />
-          <IoLogInOutline />
+          <ThemeSwitch className="my-auto"/>
+          <Button className="p-2 text-foreground bg-background border border-foreground">
+            <BsKeyFill />
+            <p>Log In</p>
+          </Button>
+          <Button className="p-2">
+            <IoLogInOutline />
+            <p>Sign Up</p>
+          </Button>
         </div>
 
         {/* Mobile Menu */}
