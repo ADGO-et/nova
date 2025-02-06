@@ -1,9 +1,9 @@
 import React from 'react';
-import Header from './components/header';
-import Stats from './components/stats';
-import CoreValues from './components/coreVals';
-import StreamingFeature from './components/midsection';
-import Testimonials from './components/testimonials';
+import Header from '../../components/about/header';
+import Stats from '../../components/about/stats';
+import CoreValues from '../../components/about/coreVals';
+import StreamingFeature from '../../components/about/midsection';
+import Testimonials from '../../components/about/testimonials';
 
 const AboutPage = () => {
   return (
