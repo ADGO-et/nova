@@ -1,9 +1,20 @@
-import React from 'react'
+import React from 'react';
+import Header from '../../components/about/header';
+import Stats from '../../components/about/stats';
+import CoreValues from '../../components/about/coreVals';
+import StreamingFeature from '../../components/about/midsection';
+import Testimonials from '../../components/about/testimonials';
 
-const page = () => {
+const AboutPage = () => {
   return (
-    <div>about page</div>
-  )
-}
+    <div className="bg-white text-gray-900">
+      <Header />
+      <StreamingFeature />
+      <Stats />
+      <CoreValues />
+      <Testimonials backgroundImage={'/testimonials_final_bg.png'}/>
+    </div>
+  );
+};
 
-export default page
+export default AboutPage;

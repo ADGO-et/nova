@@ -1,8 +1,11 @@
 import React from 'react'
+import StreamingLanding from "@/components/blog/BlogSection"
 
 const page = () => {
   return (
-    <div>blog page</div>
+    <div>
+      <StreamingLanding />
+    </div>
   )
 }
 
