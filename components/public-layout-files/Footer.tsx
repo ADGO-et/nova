@@ -48,13 +48,13 @@ const Footer = () => {
           </div>
           <div className='p-4 flex flex-row gap-8 items-start'>
             <ul className='flex flex-col gap-6'>
-              <li><Link className='flex flex-row items-center gap-2' href="#"><FaChevronRight /><h3>Home</h3></Link></li>
-              <li><Link className='flex flex-row items-center gap-2' href="#"><FaChevronRight /><h3>About Us</h3></Link></li>
-              <li><Link className='flex flex-row items-center gap-2' href="#"><FaChevronRight /><h3>Blog</h3></Link></li>
-              <li><Link className='flex flex-row items-center gap-2' href="#"><FaChevronRight /><h3>Pricing</h3></Link></li>
+              <li><Link className='flex flex-row items-center gap-2' href="/home"><FaChevronRight /><h3>Home</h3></Link></li>
+              <li><Link className='flex flex-row items-center gap-2' href="/about"><FaChevronRight /><h3>About Us</h3></Link></li>
+              <li><Link className='flex flex-row items-center gap-2' href="/blog"><FaChevronRight /><h3>Blog</h3></Link></li>
+              <li><Link className='flex flex-row items-center gap-2' href="/pricing"><FaChevronRight /><h3>Pricing</h3></Link></li>
             </ul> 
             <ul className='flex flex-col gap-6'> 
-              <li><Link className='flex flex-row items-center gap-2' href="#"><FaChevronRight /><h3>Contact Us</h3></Link></li>
+              <li><Link className='flex flex-row items-center gap-2' href="/contact"><FaChevronRight /><h3>Contact Us</h3></Link></li>
               <li><Link className='flex flex-row items-center gap-2' href="#"><FaChevronRight /><h3>Account</h3></Link></li>
               <li><Link className='flex flex-row items-center gap-2' href="#"><FaChevronRight /><h3>Media Center</h3></Link></li>
               <li><Link className='flex flex-row items-center gap-2' href="#"><FaChevronRight /><h3>Ways to watch</h3></Link></li>
