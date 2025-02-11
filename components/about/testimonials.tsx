@@ -44,8 +44,8 @@ const Testimonials: React.FC<TestimonialProps> = ({ backgroundImage }) => {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="text-white bg-blue-500"/>
-        <CarouselNext className="text-white bg-blue-500"/>
+        <CarouselPrevious className="text-white bg-blue-400"/>
+        <CarouselNext className="text-white bg-blue-400"/>
       </Carousel>
     </div>
   );
