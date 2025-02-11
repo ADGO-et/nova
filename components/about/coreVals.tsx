@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const CoreValues = () => {
   return (
-    <div className="container mx-auto py-12">
+    <div className="container mx-auto bg-green-400 md:w-[70%] py-12">
       <h2 className="text-3xl font-bold text-center ">
         Check Out Our Core Values{" "}
       </h2>
