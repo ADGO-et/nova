@@ -7,7 +7,7 @@ const ContactForm: React.FC = () => {
     <div className="flex flex-col items-center justify-center min-h-screen px-6 bg-foreground">
       <h1 className="text-xl font-bold text-center mb-6 text-background">Lets Build Your Streaming Empire.</h1>
       <div className="flex flex-col md:flex-row w-full max-w-4xl shadow-lg rounded-lg overflow-hidden">
-        <div className="bg-blue-600 text-white w-full md:w-1/2 p-24">
+        <div className="bg-blue-600 text-white w-full md:w-1/2 p-8 md:p-24">
           <h2 className="text-2xl font-bold mb-4">Contact <span className="text-black">us</span></h2>
           <form className="flex flex-col space-y-4">
             <input type="text" placeholder="Name" className="p-2 bg-transparent border-b border-white focus:outline-none" />
@@ -21,7 +21,7 @@ const ContactForm: React.FC = () => {
           </form>
         </div>
         <div className="relative w-full md:w-1/2 bg-gray-100 flex flex-col justify-center p-8">
-          <span className="hidden absolute z-50 top-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-cover bg-center font-semibold md:flex items-center text-white p-2 h-full w-[65px] " style={{ backgroundImage: "url(/contact/bgContact.png)" }}>or</span>
+          <span className="hidden absolute z-5 top-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-cover bg-center font-semibold md:flex items-center text-white p-2 h-full w-[65px] " style={{ backgroundImage: "url(/contact/bgContact.png)" }}>or</span>
           <p className="text-gray-700 text-sm mb-4 ml-6">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
           </p>
