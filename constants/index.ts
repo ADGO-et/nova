@@ -14,3 +14,30 @@ export const clients = [
   { name: "Visa & MasterCard", src: "/home/visa.png" },
   { name: "Amazon", src: "/home/amazon.png" },
 ];
+
+export const testimonials = [
+  {
+    id: 1,
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor orci a dui tempus, sit amet egestas arcu eleifend.",
+  },
+  {
+    id: 2,
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Curabitur sit amet felis nec lorem volutpat dapibus.",
+  },
+  {
+    id: 3,
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae felis sit amet ligula tempor sollicitudin at ac arcu.",
+  },
+  {
+    id: 4,
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae felis sit amet ligula tempor sollicitudin at ac arcu.",
+  },
+  {
+    id: 5,
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae felis sit amet ligula tempor sollicitudin at ac arcu.",
+  },
+  {
+    id: 6,
+    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae felis sit amet ligula tempor sollicitudin at ac arcu.",
+  },
+];
