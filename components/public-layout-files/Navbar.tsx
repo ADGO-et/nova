@@ -37,14 +37,6 @@ const Navbar = () => {
 
         <div className="hidden md:flex gap-4">
           <ThemeSwitch className="my-auto"/>
-          <Button className="p-2 text-foreground bg-background border border-foreground">
-            <BsKeyFill />
-            <p>Log In</p>
-          </Button>
-          <Button className="p-2">
-            <IoLogInOutline />
-            <p>Sign Up</p>
-          </Button>
         </div>
 
         {/* Mobile Menu */}
@@ -61,14 +53,6 @@ const Navbar = () => {
                 </Link>
               ))}
               <ThemeSwitch className="mx-auto"/>
-              <Button>
-                <BsKeyFill />
-                <p>Log In</p>
-              </Button>
-              <Button>
-                <IoLogInOutline />
-                <p>Sign Up</p>
-              </Button>
             </ul>
           </SheetContent>
         </Sheet>
