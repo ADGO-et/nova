@@ -9,7 +9,7 @@ import { Button } from "../ui/button";
 
 const FaqSection = () => {
   return (
-    <div className="text-background flex flex-col p-12 my-12 gap-8 w-full">
+    <div className="text-background flex flex-col p-12 my-12 gap-8 md:w-[85%] mx-auto">
         <div className='flex justify-between'>
             <div className='flex flex-col gap-4'>
                 <h1 className='text-2xl md:text-4xl'>Frequently Asked Questions</h1>
