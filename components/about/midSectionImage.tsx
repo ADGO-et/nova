@@ -3,7 +3,7 @@ import React from 'react'
 
 const midSectionImage = () => {
   return (
-    <div className='relative flex flex-row gap-4 p-8 w-[400px] h-[500px]'>
+    <div className='relative flex flex-row gap-4 p-8 w-[300px] md:w-[400px] lg:w-[500px] h-[350px] md:h-[450px] lg:h-[550px]'>
         <Image src='/image.png' alt='' width={40} height={40} className='absolute top-0 left-0'/>
         <div className='w-auto flex items-start' >
             <Image src='/left.png' alt='' width={300} height={400} />
