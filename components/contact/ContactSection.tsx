@@ -4,8 +4,8 @@ import { MdEmail } from "react-icons/md";
 
 const ContactForm: React.FC = () => {
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen px-6 bg-foreground">
-      <h1 className="text-xl font-bold text-center mb-6 text-background">Lets Build Your Streaming Empire.</h1>
+    <div className="flex flex-col items-center justify-center min-h-screen px-6 bg-background">
+      <h1 className="text-xl font-bold text-center mb-6 text-foreground">Lets Build Your Streaming Empire.</h1>
       <div className="flex flex-col md:flex-row w-full max-w-4xl shadow-lg rounded-lg overflow-hidden">
         <div className="bg-blue-600 text-white w-full md:w-1/2 p-8 md:p-24">
           <h2 className="text-2xl font-bold mb-4">Contact <span className="text-black">us</span></h2>
@@ -13,11 +13,11 @@ const ContactForm: React.FC = () => {
             <input type="text" placeholder="Name" className="p-2 bg-transparent border-b border-white focus:outline-none" />
             <input type="email" placeholder="Email" className="p-2 bg-transparent border-b border-white focus:outline-none" />
             <textarea placeholder="Message" className="p-2 bg-transparent border-b border-white focus:outline-none"></textarea>
-            <label className="flex items-center space-x-2 text-sm">
-              <input type="checkbox" className="w-4 h-4" />
+            <label className="flex bg-blue-600 items-center space-x-2 text-sm">
+              <input type="checkbox" className="w-4 h-4 " />
               <span>I would like to receive the newsletter.</span>
             </label>
-            <button className="bg-black text-white py-2 px-4 rounded hover:bg-gray-800">Submit</button>
+            <button className="bg-black text-white py-2 px-4 rounded hover:bg-gray-800 flex items-start justify-center w-[50%]">Submit</button>
           </form>
         </div>
         <div className="relative w-full md:w-1/2 bg-gray-100 flex flex-col justify-center p-8">

@@ -35,7 +35,7 @@ const PricingSection: React.FC = () => {
   ];
 
   return (
-    <section className="py-12 bg-foreground text-background">
+    <section className="py-12 bg-background text-foreground">
       <div className="text-center mb-6">
         <h2 className="text-3xl font-bold">Choose the perfect plan for yourself.</h2>
         <div className="mt-4 flex items-center justify-center space-x-2">

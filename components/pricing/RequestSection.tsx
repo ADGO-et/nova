@@ -17,7 +17,7 @@ const RequestQuote: React.FC = () => {
               <input
                 type="text"
                 placeholder="Type your first name"
-                className="mt-1 p-2 w-full border border-gray-400 rounded-md bg-white"
+                className="mt-1 p-2 w-full border border-gray-400 rounded-md bg-white text-black"
               />
             </div>
             <div>
@@ -25,7 +25,7 @@ const RequestQuote: React.FC = () => {
               <input
                 type="text"
                 placeholder="Type your last name"
-                className="mt-1 p-2 w-full border border-gray-400 rounded-md bg-white"
+                className="mt-1 p-2 w-full border border-gray-400 rounded-md bg-white text-black"
               />
             </div>
             <div>
@@ -33,7 +33,7 @@ const RequestQuote: React.FC = () => {
               <input
                 type="text"
                 placeholder="Enter your phone number"
-                className="mt-1 p-2 w-full border border-gray-400 rounded-md bg-white"
+                className="mt-1 p-2 w-full border border-gray-400 rounded-md bg-white text-black"
               />
             </div>
             <div>
@@ -41,7 +41,7 @@ const RequestQuote: React.FC = () => {
               <input
                 type="email"
                 placeholder="Type your email"
-                className="mt-1 p-2 w-full border border-gray-400 rounded-md bg-white"
+                className="mt-1 p-2 w-full border border-gray-400 rounded-md bg-white text-black"
               />
             </div>
             <div>
@@ -49,7 +49,7 @@ const RequestQuote: React.FC = () => {
               <input
                 type="text"
                 placeholder="Type your company name"
-                className="mt-1 p-2 w-full border border-gray-400 rounded-md bg-white"
+                className="mt-1 p-2 w-full border border-gray-400 rounded-md bg-white text-black"
               />
             </div>
             <div>
@@ -57,14 +57,14 @@ const RequestQuote: React.FC = () => {
               <input
                 type="text"
                 placeholder="Type your country"
-                className="mt-1 p-2 w-full border border-gray-400 rounded-md bg-white"
+                className="mt-1 p-2 w-full border border-gray-400 rounded-md bg-white text-black"
               />
             </div>
             <div className="col-span-2">
               <label className="text-black block text-sm font-medium">Message</label>
               <textarea
                 placeholder="Message"
-                className="mt-1 p-2 w-full border border-gray-400 rounded-md h-24 bg-white"
+                className="mt-1 p-2 w-full border border-gray-400 rounded-md h-24 bg-white text-black"
               ></textarea>
             </div>
             <div className="col-span-2 flex justify-end">

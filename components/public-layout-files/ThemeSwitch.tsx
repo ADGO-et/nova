@@ -26,13 +26,14 @@ export default function ThemeSwitch({ className }: { className?: string }) {
       className={className}
     />
   )
+  
+  if (resolvedTheme === 'light') {
+    return <FiMoon className={`${className} hover:text-gray-500 hover:scale-110 transition-transform duration-200 cursor-pointer`} onClick={() => setTheme('dark')} />
+  }
 
   if (resolvedTheme === 'dark') {
     return <FiSun className={`${className} hover:text-yellow-500 hover:scale-110 transition-transform duration-200 cursor-pointer`} onClick={() => setTheme('light')} />
   }
 
-  if (resolvedTheme === 'light') {
-    return <FiMoon className={`${className} hover:text-gray-500 hover:scale-110 transition-transform duration-200 cursor-pointer`} onClick={() => setTheme('dark')} />
-  }
 }
 

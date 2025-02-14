@@ -8,7 +8,7 @@ import ClientSection from '../../components/home/ClientsSection';
 
 const AboutPage = () => {
   return (
-    <div className="bg-foreground text-background text-gray-900">
+    <div className="bg-background text-foreground">
       <Header />
       <StreamingFeature />
       <Stats />

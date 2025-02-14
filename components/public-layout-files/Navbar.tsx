@@ -23,8 +23,8 @@ const Navbar = () => {
 
   const navBgClass =
     resolvedTheme === "dark"
-      ? "bg-black text-white shadow-gray-200"
-      : "bg-blue-800 text-white shadow-black";
+      ? "bg-blue-800 text-white shadow-black"
+      : "bg-black text-white shadow-gray-200";
 
   return (
     <nav className={`sticky top-0 z-10 px-8 py-4 shadow-4xl ${navBgClass}`}>

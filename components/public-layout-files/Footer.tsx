@@ -5,40 +5,40 @@ import Image from 'next/image';
 
 const Footer = () => {
   return (
-    <div className='flex flex-col gap-4 md:gap-8 bg-foreground'>
-      <div className='grid grid-cols-1 md:grid-cols-3 bg-background p-4'>
-        <div className='p-2 md:border-r border-foreground flex gap-3 items-center md:justify-end pr-12'>
-          <div className='p-2 rounded-full border border-foreground'>
-            <FaLocationDot className='w-[14px] h-[14px]'/>
+    <div className='flex flex-col gap-4 md:gap-8 bg-background'>
+      <div className='grid grid-cols-1 md:grid-cols-3 bg-foreground p-4'>
+        <div className='p-2 md:border-r border-background flex gap-3 items-center md:justify-end pr-12'>
+          <div className='p-2 rounded-full border border-background'>
+            <FaLocationDot className='w-[14px] h-[14px] text-background'/>
           </div>
           <div>
             <p className='text-sm'>Address</p>
-            <h2 className='text-md font-semibold text-foreground'>Bole Street</h2>
+            <h2 className='text-md font-semibold text-background'>Bole Street</h2>
           </div>
         </div>
-        <div className='p-2 md:border-r border-foreground flex gap-3 items-center md:justify-center'>
-          <div className='p-2 rounded-full border border-foreground'>
-            <FaPhone className='w-[14px] h-[14px]'/>
+        <div className='p-2 md:border-r border-background flex gap-3 items-center md:justify-center'>
+          <div className='p-2 rounded-full border border-background'>
+            <FaPhone className='w-[14px] h-[14px] text-background'/>
           </div>
           <div>
             <p className='text-sm'>Phone</p>
-            <h2 className='text-md font-semibold text-foreground'>0912841695 / 0912646315 / 0930365902</h2>
+            <h2 className='text-md font-semibold text-background'>0912841695 / 0912646315 / 0930365902</h2>
           </div>
         </div>
         <div className='p-2 flex gap-3 items-center md:justify-start pl-12'>
-          <div className='p-2 rounded-full border border-foreground'>
-            <FaEnvelope className='w-[14px] h-[14px]'/>
+          <div className='p-2 rounded-full border border-background'>
+            <FaEnvelope className='w-[14px] h-[14px] text-background'/>
           </div>
           <div>
             <p className='text-sm'>Email</p>
-            <h2 className='text-md font-semibold text-foreground'>info@nova.et</h2>
-            <h2 className='text-md font-semibold text-foreground'>kaleab@nova.et</h2>
-            <h2 className='text-md font-semibold text-foreground'>kaleb@nova.et</h2>
-            <h2 className='text-md font-semibold text-foreground'>ephrata@nova.et</h2>
+            <h2 className='text-md font-semibold text-background'>info@nova.et</h2>
+            <h2 className='text-md font-semibold text-background'>kaleab@nova.et</h2>
+            <h2 className='text-md font-semibold text-background'>kaleb@nova.et</h2>
+            <h2 className='text-md font-semibold text-background'>ephrata@nova.et</h2>
           </div>
         </div>
       </div>
-      <div className='bg-background p-4'>
+      <div className='bg-foreground text-background p-4'>
         <div className='grid grid-cols-1 md:grid-cols-2 p-4 md:w-[75%] mx-auto items-center'>
           <div className='flex flex-col p-4 gap-4'>
             <h2 className='font-bold text-lg'>Nova</h2>
@@ -66,7 +66,7 @@ const Footer = () => {
             </ul>
           </div>
         </div>
-        <div className='border border-foreground w-full bg-background' />
+        <div className='border border-background w-full bg-foreground' />
         <Image src='/footerLogo.png' alt='logo' width={100} height={71.74} className='ml-12 md:ml-44 '/>
       </div>
     </div>

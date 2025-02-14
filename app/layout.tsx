@@ -19,7 +19,7 @@ export default function RootLayout({
         <Providers>
           <div className="flex flex-col ">
             <Navbar />
-            <div className="flex flex-col bg-foreground">
+            <div className="flex flex-col bg-background">
               {children}
             </div>
             <Footer />

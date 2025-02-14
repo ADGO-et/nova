@@ -4,7 +4,7 @@ import { FaArrowAltCircleRight } from "react-icons/fa";
 
 const Services = () => {
   return (
-    <div className='bg-foreground text-background'>
+    <div className='bg-background text-foreground'>
       <div className="container mx-auto w-[80%] py-12">
         <h2 className="text-3xl font-bold text-center mt-10">Check Out Our Services </h2>
         <h2 className="text-3xl font-bold text-center mb-10">That We Provide</h2>
@@ -35,8 +35,8 @@ const Services = () => {
             <p className="text-center text-gray-700 mb-4">In pellentesque massa vida placerat duis.
             Cursus sit amet dictum sit amet</p>
             <Button className="bg-blue-800 text-white font-semibold py-3 px-4 rounded-2xl flex items-center space-x-2 hover:bg-blue-600 mt-3 ">
-                    <span className='text-sm'>Explore Our Solutions</span>
-                    <FaArrowAltCircleRight size={45} />
+              <span className='text-sm'>Explore Our Solutions</span>
+              <FaArrowAltCircleRight size={45} />
           </Button>
           </div>
         </div>

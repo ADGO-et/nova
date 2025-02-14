@@ -5,7 +5,7 @@ const FeatureGrid = () => {
   return (
     <div className="container mx-auto px-4 py-12">
       {/* Grid */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
         {/* Row 1 */}
         <FeatureItem
           icon="/icon_container.svg"
@@ -47,12 +47,12 @@ const FeatureGrid = () => {
 const FeatureItem = ({ icon, title, description }: { icon: string; title: string; description: string }) => {
   return (
     <div className="flex justify-center items-center">
-      <div className="p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow bg-background flex flex-col justify-start items-start w-[320px] h-auto"> {/* Fixed width, auto height */}
+      <div className="p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow bg-gray-900 flex flex-col justify-start items-start w-[320px] h-auto"> {/* Fixed width, auto height */}
         <div className="flex items-center mb-4">
           <Image src={icon} alt={title} width={12} height={12} className="w-12 h-12 mr-4" />
-          <h3 className="text-foreground text-xl font-bold text-left">{title}</h3> {/* Aligned title to the left */}
+          <h3 className="text-white text-xl font-bold text-left">{title}</h3> {/* Aligned title to the left */}
         </div>
-        <p className="text-foreground text-left">{description}</p> {/* Aligned description to the left */}
+        <p className="text-white text-left">{description}</p> {/* Aligned description to the left */}
       </div>
     </div>
   );

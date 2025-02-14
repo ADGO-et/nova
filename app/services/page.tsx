@@ -5,7 +5,7 @@ import ServicesHeader from '../../components/services/services_header'
 
 const page = () => {
   return (
-    <div className="bg-white text-gray-900">
+    <div className="bg-background text-foreground">
       <ServicesHeader />
       <Services />
       <Features />
