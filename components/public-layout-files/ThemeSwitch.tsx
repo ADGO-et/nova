@@ -5,11 +5,14 @@ import { useState, useEffect } from 'react'
 import { useTheme } from 'next-themes'
 import Image from "next/image"
 
-export default function ThemeSwitch({ className }: {className?: string}) {
+
+export default function ThemeSwitch({ className }: { className?: string }) {
   const [mounted, setMounted] = useState(false)
   const { setTheme, resolvedTheme } = useTheme()
 
-  useEffect(() =>  setMounted(true), [])
+  useEffect(() => {
+    setMounted(true)
+  }, [resolvedTheme])
 
   if (!mounted) return (
     <Image
@@ -27,9 +30,9 @@ export default function ThemeSwitch({ className }: {className?: string}) {
   if (resolvedTheme === 'dark') {
     return <FiSun className={`${className} hover:text-yellow-500 hover:scale-110 transition-transform duration-200 cursor-pointer`} onClick={() => setTheme('light')} />
   }
-  
+
   if (resolvedTheme === 'light') {
     return <FiMoon className={`${className} hover:text-gray-500 hover:scale-110 transition-transform duration-200 cursor-pointer`} onClick={() => setTheme('dark')} />
   }
-
 }
+
