@@ -4,7 +4,7 @@ import Image from 'next/image';
 
 const StreamingLanding = () => {
   return (
-    <div className="w-full min-h-screen bg-white">
+    <div className="w-full min-h-screen bg-foreground">
       {/* Hero Section */}
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 p-8 max-w-6xl mx-auto">
         <div>
