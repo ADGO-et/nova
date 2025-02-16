@@ -42,7 +42,7 @@ const Navbar = () => {
           ))}
         </ul>
 
-        <div className="hidden md:flex gap-4">
+        <div className="flex gap-4">
           <ThemeSwitch className="my-auto" />
         </div>
 
@@ -59,7 +59,6 @@ const Navbar = () => {
                   {item.name}
                 </Link>
               ))}
-              <ThemeSwitch className="mx-auto" />
             </ul>
           </SheetContent>
         </Sheet>

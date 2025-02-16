@@ -77,7 +77,7 @@ const PricingSection: React.FC = () => {
             )}
             <h3 className="text-xl font-bold">{plan.name}</h3>
             <p className="text-sm">{plan.description}</p>
-            <p className="text-3xl font-bold mt-4">${plan.price} <span className="text-base">/month</span></p>
+            <p className="text-3xl font-bold mt-4">${plan.price} <span className="text-base">/ {billingCycle === "monthly" ? "month" : "year" }</span></p>
             <button className="w-full mt-4 py-2 bg-black text-white rounded-lg">
               Get started
             </button>
