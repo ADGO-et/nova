@@ -17,7 +17,7 @@ const Navbar = () => {
     { name: "About Us", url: "/about" },
     { name: "Services", url: "/services" },
     { name: "Pricing", url: "/pricing" },
-    { name: "Blog", url: "/blog" },
+    // { name: "Blog", url: "/blog" },
     { name: "Contact Us", url: "/contact" },
   ];
 
