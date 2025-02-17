@@ -44,7 +44,7 @@ const StreamingFeature = () => {
               </h3>
               <p>Helping broadcasters maximize</p>
               <p>their audience reach and revenue</p>
-              <p>potential in today's fast-evolving</p>
+              <p>potential in today&apos;s fast-evolving</p>
               <p>digital-first world.</p>
             </div>
           </div>
