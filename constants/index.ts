@@ -30,7 +30,7 @@ export const testimonials = [
   },
   {
     id: 4,
-    text: "Nova revolutionized our content delivery. Their scalable platform and reliable streaming have been crucial to expanding reach and engaging our audience.Nova has revolutionized our content delivery. Their scalable platform and reliable streaming have been crucial to expanding our reach and engaging our audience effectively.",
+    text: "Nova revolutionized our content delivery. Their scalable platform and reliable streaming have been crucial to expanding reach and engaging our audience.",
   },
   {
     id: 5,
