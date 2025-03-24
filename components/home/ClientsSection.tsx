@@ -12,9 +12,9 @@ const ClientsSection: React.FC = () => {
         {clients.map((client, index) => (
           <div
             key={index}
-            className="bg-white px-4 py-0 mx-8 rounded-full shadow-md flex items-center justify-center w-40 h-16"
+            className="bg-white px-4 py-0 mx-8 rounded-full shadow-md flex items-center justify-center w-40 h-16 object-contain"
           >
-            <Image src={client.src} alt={client.name} width={180} height={70} />
+            <Image src={client.src} alt={client.name} width={180} height={70} className="rounded-full" />
           </div>
         ))}
       </Marquee>
@@ -25,7 +25,7 @@ const ClientsSection: React.FC = () => {
             key={index}
             className="bg-white px-4 py-0 mx-8 rounded-full shadow-md flex items-center justify-center w-40 h-16"
           >
-            <Image src={client.src} alt={client.name} width={180} height={70} />
+            <Image src={client.src} alt={client.name} width={180} height={70} className="rounded-full" />
           </div>
         ))}
       </Marquee>

@@ -22,7 +22,7 @@ const Footer = () => {
           </div>
           <div>
             <p className='text-sm'>Phone</p>
-            <h2 className='text-md font-semibold text-background'>0912841695 / 0912646315 / 0930365902</h2>
+            <h2 className='text-md font-semibold text-background'>0912841695/ 0912646315/ 0912343660</h2>
           </div>
         </div>
         <div className='p-2 flex gap-3 items-center md:justify-start pl-12'>
@@ -34,7 +34,6 @@ const Footer = () => {
             <h2 className='text-md font-semibold text-background'>info@nova.et</h2>
             <h2 className='text-md font-semibold text-background'>kaleab@nova.et</h2>
             <h2 className='text-md font-semibold text-background'>kaleb@nova.et</h2>
-            <h2 className='text-md font-semibold text-background'>ephrata@nova.et</h2>
           </div>
         </div>
       </div>

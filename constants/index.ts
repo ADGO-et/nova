@@ -6,13 +6,13 @@ export const devices = [
 ];
 
 export const clients = [
-  { name: "Commercial Bank of Ethiopia", src: "/home/cbe.png" },
-  { name: "Ethio Telecom", src: "/home/ethiotele.png" },
-  { name: "Ethiopian Airlines", src: "/home/airlines.png" },
-  { name: "Safaricom", src: "/home/safaricom.png" },
-  { name: "Google", src: "/home/google.png" },
-  { name: "Visa & MasterCard", src: "/home/visa.png" },
-  { name: "Amazon", src: "/home/amazon.png" },
+  { name: "EBC", src: "/home/images/ebc.jpg" },
+  { name: "Fana TV", src: "/home/ethiotele.png" },
+  { name: "Amhara Mass Media", src: "/home/images/amn.jpg" },
+  { name: "Ethiotelecom", src: "/home/images/ethiotele.png" },
+  { name: "Websprix", src: "/home/images/websprix.jpg" },
+  { name: "RingCloud", src: "/home/images/ring.png" },
+  { name: "WeyraET", src: "/home/images/weyra.png" },
 ];
 
 export const testimonials = [

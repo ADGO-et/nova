@@ -28,7 +28,7 @@ const FaqSection = () => {
                             </div>
                         </AccordionTrigger>
                         <AccordionContent>
-                            Nova Stream is a streaming service that allows you to watch movies and shows on demand.
+                            Nova is a comprehensive streaming platform that empowers broadcasters with innovative tools for seamless streaming, audience engagement, and revenue growth.
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-2">
@@ -39,7 +39,9 @@ const FaqSection = () => {
                             </div>
                         </AccordionTrigger>
                         <AccordionContent>
-                            Nova Stream is a streaming service that allows you to watch movies and shows on demand.
+                        Nova offers two pricing plans:
+                        A.Basic Plan: $499/month, including unlimited viewers, 1-month show storage, and 2TB of storage.
+                        B.Business Plan: $799/month, including all Basic features, 3-month show storage, 5TB of storage, and clearer video quality.
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-3">
@@ -50,66 +52,48 @@ const FaqSection = () => {
                             </div>
                         </AccordionTrigger>
                         <AccordionContent>
-                            Nova Stream is a streaming service that allows you to watch movies and shows on demand.
-                        </AccordionContent>
-                    </AccordionItem>
-                    <AccordionItem value="item-4">
-                        <AccordionTrigger className="text-lg">
-                            <div className="flex gap-2 items-start">
-                                <span className='bg-foreground text-background px-3 py-1 font-semibold rounded-md'>4</span>
-                                <span>How can I watch Nova Stream?</span>
-                            </div>
-                        </AccordionTrigger>
-                        <AccordionContent>
-                            Nova Stream is a streaming service that allows you to watch movies and shows on demand.
+                            Nova Stream supports a wide range of content, including TV shows, radio programs, and personal creations. Whether it is media company broadcasts or individual productions, Nova is designed to handle diverse streaming needs seamlessly
                         </AccordionContent>
                     </AccordionItem>
                 </Accordion>
             </div>
             <div className="md:w-[50%]">
                 <Accordion type="single" collapsible className="w-full">
-                    <AccordionItem value="item-5">
+                    <AccordionItem value="item-4">
                         <AccordionTrigger className="text-lg">
                             <div className="flex gap-2 items-start">
-                                <span className='bg-foreground text-background px-3 py-1 font-semibold rounded-md'>5</span>
+                                <span className='bg-foreground text-background px-3 py-1 font-semibold rounded-md'>4</span>
                                 <span>How do I sign up for Nova Stream?</span>
                             </div>
                         </AccordionTrigger>
                         <AccordionContent>
-                            Nova Stream is a streaming service that allows you to watch movies and shows on demand.
+                        You can sign up directly through our website or reach out to us for personalized assistance with the registration process.
+                        </AccordionContent>
+                    </AccordionItem>
+                    <AccordionItem value="item-5">
+                        <AccordionTrigger className="text-lg">
+                            <div className="flex gap-2 items-start">
+                                <span className='bg-foreground text-background px-3 py-1 font-semibold rounded-md'>5</span>
+                                <span>How do I contact Nova Stream customer support?</span>
+                            </div>
+                        </AccordionTrigger>
+                        <AccordionContent>
+                        You can reach Nova's customer support team through the following numbers:
+                            +251 916 584 401 or
+                            +251 912 841 695 or
+                            +251 912 343 660 or
+                            +251 912 646 315
                         </AccordionContent>
                     </AccordionItem>
                     <AccordionItem value="item-6">
                         <AccordionTrigger className="text-lg">
                             <div className="flex gap-2 items-start">
                                 <span className='bg-foreground text-background px-3 py-1 font-semibold rounded-md'>6</span>
-                                <span>What is the Nova Stream free trial?</span>
+                                <span>How can I watch Nova Stream?</span>
                             </div>
                         </AccordionTrigger>
                         <AccordionContent>
-                            Nova Stream is a streaming service that allows you to watch movies and shows on demand.
-                        </AccordionContent>
-                    </AccordionItem>
-                    <AccordionItem value="item-7">
-                        <AccordionTrigger className="text-lg">
-                            <div className="flex gap-2 items-start">
-                                <span className='bg-foreground text-background px-3 py-1 font-semibold rounded-md'>7</span>
-                                <span>How do I contact Nova Stream customer support?</span>
-                            </div>
-                        </AccordionTrigger>
-                        <AccordionContent>
-                            Nova Stream is a streaming service that allows you to watch movies and shows on demand.
-                        </AccordionContent>
-                    </AccordionItem>
-                        <AccordionItem value="item-8">
-                        <AccordionTrigger className="text-lg">
-                            <div className="flex gap-2 items-start">
-                                <span className='bg-foreground text-background px-3 py-1 font-semibold rounded-md'>8</span>
-                                <span>What are the Nova Stream payment methods?</span>
-                            </div>
-                        </AccordionTrigger>
-                        <AccordionContent>
-                            Nova Stream is a streaming service that allows you to watch movies and shows on demand.
+                        You can access Nova Stream on all electronic devices, including smartphones, laptops, and tablets, ensuring a seamless viewing experience anytime, anywhere.
                         </AccordionContent>
                     </AccordionItem>
                 </Accordion>

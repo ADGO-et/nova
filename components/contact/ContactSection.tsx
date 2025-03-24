@@ -21,23 +21,20 @@ const ContactForm: React.FC = () => {
           </form>
         </div>
         <div className="relative w-full md:w-1/2 bg-gray-100 flex flex-col justify-center p-8">
-          <span className="hidden absolute z-5 top-1/2 transform -translate-x-1/2 -translate-y-1/2 bg-cover bg-center font-semibold md:flex items-center text-white p-2 h-full w-[65px] " style={{ backgroundImage: "url(/contact/bgContact.png)" }}>or</span>
-          <p className="text-gray-700 text-sm mb-4 ml-6">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-          </p>
-          <div className="mb-4 ml-6">
+          <span className="hidden absolute z-5 top-1/2 transform border-r-4 border-gray-100 -translate-x-1/2 -translate-y-1/2 bg-cover bg-center font-semibold md:flex items-center text-white p-2 h-full w-[65px] " style={{ backgroundImage: "url(/contact/bgContact.png)" }}>or</span>
+          <div className="mb-4 ml-8">
             <iframe 
               src="https://maps.google.com/maps?q=Addis%20Ababa&t=&z=13&ie=UTF8&iwloc=&output=embed"
               className="w-full h-32 border border-gray-300 rounded my-4"
               loading="lazy"
             ></iframe>
           </div>
-          <div className="text-gray-700 text-sm space-y-2 ml-6">
+          <div className="text-gray-700 text-sm space-y-2 ml-8">
             <p className='flex gap-2'><FaLocationDot className='w-4 h-4'/> A.A, Ethiopia</p>
             <p className='flex gap-2'><FaPhoneVolume className='w-4 h-4'/> +251 900 000 000</p>
             <p className='flex gap-2'><MdEmail className='w-4 h-4'/> somebody3@gmail.com</p>
           </div>
-          <div className="flex space-x-4 mt-4 items-end ml-6">
+          <div className="flex space-x-4 mt-4 items-end ml-8">
             <a href="#" className="text-gray-600 hover:text-gray-900"><FaFacebook /></a>
             <a href="#" className="text-gray-600 hover:text-gray-900"><FaTwitter /></a>
             <a href="#" className="text-gray-600 hover:text-gray-900"><FaInstagram /></a>
