@@ -23,7 +23,7 @@ const CoreValues = () => {
             />
             <h3 className="text-xl font-semibold mb-2">Innovation</h3>
             <p className="text-center text-gray-700 mb-4">
-              Short description about innovation.
+            Nova: Pioneering streaming advancements.
             </p>
             <Button className="bg-blue-800 text-white font-semibold py-3 px-4 rounded-2xl flex items-center space-x-2 hover:bg-blue-600 mt-3 ">
               <span className="text-sm">Explore More</span>
@@ -40,7 +40,7 @@ const CoreValues = () => {
             />
             <h3 className="text-xl font-semibold mb-2">Reliability</h3>
             <p className="text-center text-gray-700 mb-4">
-              Short description about innovation.
+              Nova: Trusted streaming partnership.
             </p>
             <Button className="bg-blue-800 text-white font-semibold py-3 px-4 rounded-2xl flex items-center space-x-2 hover:bg-blue-600 mt-3 ">
               <span className="text-sm">Explore More</span>
@@ -57,7 +57,7 @@ const CoreValues = () => {
             />
             <h3 className="text-xl font-semibold mb-2">Customization</h3>
             <p className="text-center text-gray-700 mb-4">
-              Short description about innovation.
+              Nova: Tailored streaming solutions
             </p>
             <Button className="bg-blue-800 text-white font-semibold py-3 px-4 rounded-2xl flex items-center space-x-2 hover:bg-blue-600 mt-3 ">
               <span className="text-sm">Explore More</span>

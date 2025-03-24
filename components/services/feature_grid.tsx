@@ -10,7 +10,7 @@ const FeatureGrid = () => {
         <FeatureItem
           icon="/icon_container.svg"
           title="Unlimited Viewers"
-          description="Nova Stream is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store"
+          description="The platform supports unlimited simultaneous viewers with scalable streaming technology and offers replay features for on-demand access to past broadcasts and videos."
         />
         <FeatureItem
           icon="/replay.svg"
@@ -20,24 +20,24 @@ const FeatureGrid = () => {
         <FeatureItem
           icon="/branded.svg"
           title="Branded Platforms"
-          description="Nova Stream is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store"
+          description="A 'Branded Platform' is a customized digital space, like Nova or Mayya, featuring logos, design, and identity for a unique user and advertiser experience."
         />
 
         {/* Row 2 */}
         <FeatureItem
           icon="/cross.svg"
           title="Cross-Platform Streaming"
-          description="Nova Stream is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store"
+          description="the capability of a streaming service like Nova or Mayya to deliver content across various devices and operating systems, enhancing accessibility and user experience"
         />
         <FeatureItem
           icon="/ad.svg"
           title="Ad Monetization"
-          description="Nova Stream is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store"
+          description="the strategies and processes used by platforms like Nova and Mayya to generate revenue by displaying advertisements to their users."
         />
         <FeatureItem
           icon="/audience.svg"
           title="Audience Analytics"
-          description="Nova Stream is optimized for both Android and iOS smartphones. Download our app from the Google Play Store or the Apple App Store"
+          description="Platforms like Nova and Mayya use tools and processes to collect and analyze viewer data, offering insights into demographics, behavior, and preferences to optimize content and advertising."
         />
       </div>
     </div>

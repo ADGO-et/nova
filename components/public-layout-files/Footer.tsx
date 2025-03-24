@@ -43,7 +43,7 @@ const Footer = () => {
           <div className='flex flex-col p-4 gap-4'>
             <h2 className='font-bold text-lg'>Nova</h2>
             <p className='text-sm'>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ornare cursus sed nunc eget dictum  Sed ornare cursus sed nunc eget dictumd nunc eget dictum  Sed ornare cursus sed nunc eget dictum
+              NOVA TV is a scalable streaming platform with expertise in live and Video on Demand (VOD) streaming.  It is a trusted streaming partner for leading news media organizations and is officially partnered and licensed by the Ethiopian Broadcast Authority.
             </p>
           </div>
           <div className='p-4 flex flex-row gap-8 items-start'>

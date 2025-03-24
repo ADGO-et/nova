@@ -18,26 +18,26 @@ export const clients = [
 export const testimonials = [
   {
     id: 1,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor orci a dui tempus, sit amet egestas arcu eleifend.",
+    text: "Nova has revolutionized our content delivery. Their scalable platform and reliable streaming have been crucial to expanding our reach and engaging our audience effectively.",
   },
   {
     id: 2,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Curabitur sit amet felis nec lorem volutpat dapibus.",
+    text: "We've partnered with Nova for our streaming needs and haven't looked back. Their reliability and support have allowed us to focus on content, not technical issues.",
   },
   {
     id: 3,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae felis sit amet ligula tempor sollicitudin at ac arcu.",
+    text: "Switching to Nova was the best decision for our network. The platform's reliability and scalability have allowed us to grow our viewership without any hiccups.",
   },
   {
     id: 4,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae felis sit amet ligula tempor sollicitudin at ac arcu.",
+    text: "Nova has revolutionized our content delivery. Their scalable platform and reliable streaming have been crucial to expanding our reach and engaging our audience effectively.",
   },
   {
     id: 5,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae felis sit amet ligula tempor sollicitudin at ac arcu.",
+    text: "We've partnered with Nova for our streaming needs and haven't looked back. Their reliability and support have allowed us to focus on content, not technical issues.",
   },
   {
     id: 6,
-    text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae felis sit amet ligula tempor sollicitudin at ac arcu.",
-  },
+    text: "Switching to Nova was the best decision for our network. The platform's reliability and scalability have allowed us to grow our viewership without any hiccups.",
+  }
 ];

@@ -17,7 +17,7 @@ const Stats = () => {
               />
               <div>
                 <h2 className="text-2xl sm:text-3xl font-bold text-white">18M+</h2>
-                <p className="text-sm sm:text-base text-gray-300">Some Stat Description</p>
+                <p className="text-sm sm:text-base text-gray-300">monthly impressions</p>
               </div>
             </div>
 
@@ -31,8 +31,8 @@ const Stats = () => {
                 className="w-10 h-10 sm:w-12 sm:h-12 md:w-14 md:h-14 mr-2 sm:mr-4"
               />
               <div>
-                <h2 className="text-2xl sm:text-3xl font-bold text-white">17K+</h2>
-                <p className="text-sm sm:text-base text-gray-300">Another Stat Description</p>
+                <h2 className="text-2xl sm:text-3xl font-bold text-white">170K+</h2>
+                <p className="text-sm sm:text-base text-gray-300">Downloads</p>
               </div>
             </div>
           </div>
