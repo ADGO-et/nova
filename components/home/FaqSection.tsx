@@ -78,7 +78,7 @@ const FaqSection = () => {
                             </div>
                         </AccordionTrigger>
                         <AccordionContent>
-                        You can reach Nova's customer support team through the following numbers:
+                        You can reach Nova&apos; customer support team through the following numbers:
                             +251 916 584 401 or
                             +251 912 841 695 or
                             +251 912 343 660 or
