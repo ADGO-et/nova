@@ -7,12 +7,14 @@ export const devices = [
 
 export const clients = [
   { name: "EBC", src: "/home/images/ebc.jpg" },
-  { name: "Fana TV", src: "/home/ethiotele.png" },
+  { name: "Fana TV", src: "/home/images/fana.png" },
   { name: "Amhara Mass Media", src: "/home/images/amn.jpg" },
   { name: "Ethiotelecom", src: "/home/images/ethiotele.png" },
   { name: "Websprix", src: "/home/images/websprix.jpg" },
   { name: "RingCloud", src: "/home/images/ring.png" },
   { name: "WeyraET", src: "/home/images/weyra.png" },
+  { name: "Websprix", src: "/home/images/websprix.jpg" },
+
 ];
 
 export const testimonials = [

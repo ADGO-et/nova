@@ -1,3 +1,4 @@
+'use client';
 import Image from "next/image";
 import { clients } from "@/constants/index"
 import Marquee from 'react-fast-marquee'
