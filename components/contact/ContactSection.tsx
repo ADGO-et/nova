@@ -31,8 +31,8 @@ const ContactForm: React.FC = () => {
           </div>
           <div className="text-gray-700 text-sm space-y-2 ml-8">
             <p className='flex gap-2'><FaLocationDot className='w-4 h-4'/> A.A, Ethiopia</p>
-            <p className='flex gap-2'><FaPhoneVolume className='w-4 h-4'/> +251 900 000 000</p>
-            <p className='flex gap-2'><MdEmail className='w-4 h-4'/> somebody3@gmail.com</p>
+            <p className='flex gap-2'><FaPhoneVolume className='w-4 h-4'/>+251912841695</p>
+            <p className='flex gap-2'><MdEmail className='w-4 h-4'/> info@novastreaming.et</p>
           </div>
           <div className="flex space-x-4 mt-4 items-end ml-8">
             <a href="#" className="text-gray-600 hover:text-gray-900"><FaFacebook /></a>

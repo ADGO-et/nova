@@ -9,25 +9,24 @@ const PricingSection: React.FC = () => {
 
   const plans = [
     {
-      name: "Basic",
+      name: "Standard",
       description: "Best for personal use",
-      price: billingCycle === "yearly" ? 499 : 599,
+      price: billingCycle === "yearly" ? 5689 : 499,
       features: [
         "Stream live to unlimited viewers",
         "Save shows for 1 month",
-        "7TB storage",
+        "store up to 2TB of content.",
       ],
       popular: false,
     },
     {
-      name: "Business",
+      name: "Premium",
       description: "Best for professional use",
-      price: billingCycle === "yearly" ? 799 : 899,
+      price: billingCycle === "yearly" ? 9100 : 799,
       features: [
-        "All starter features, plus:",
-        "Unlocks Basic features",
-        "Save shows for 3 months",
-        "15TB storage",
+        "Includes Standard features: plus",
+        "save shows for 3 months",
+        "5TB storage",
         "Clear video quality",
       ],
       popular: true,

@@ -5,7 +5,7 @@ import Marquee from 'react-fast-marquee'
 
 const ClientsSection: React.FC = () => {
   return (
-    <section className="text-white py-12 my-12" style={{ backgroundImage: 'url(/home/ourClients.png)' }}>
+    <section id="clients" className="text-white py-12 my-12" style={{ backgroundImage: 'url(/home/ourClients.png)' }}>
       <div className="text-center my-12 w-[75%] mx-auto">
         <h2 className="text-xl md:text-4xl font-bold">OUR CLIENTS</h2>
       </div>
@@ -13,20 +13,9 @@ const ClientsSection: React.FC = () => {
         {clients.map((client, index) => (
           <div
             key={index}
-            className="bg-white px-4 py-0 mx-8 rounded-full shadow-md flex items-center justify-center w-40 h-16 object-contain"
+            className="bg-white px-4 py-0 mx-8 rounded-full shadow-md flex items-center justify-center w-64 h-28 relative"
           >
-            <Image src={client.src} alt={client.name} width={180} height={70} className="rounded-full" />
-          </div>
-        ))}
-      </Marquee>
-
-      <Marquee direction="left" speed={50} pauseOnHover className="mt-4">
-        {clients.map((client, index) => (
-          <div
-            key={index}
-            className="bg-white px-4 py-0 mx-8 rounded-full shadow-md flex items-center justify-center w-40 h-16"
-          >
-            <Image src={client.src} alt={client.name} width={180} height={70} className="rounded-full" />
+            <Image src={client.src} alt={client.name} fill className={`rounded-full object-contain ${client.name === "Websprix" ? "py-3" : ""}  ${client.name === "RingCloud" ? "py-5" : ""}`} />
           </div>
         ))}
       </Marquee>

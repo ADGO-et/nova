@@ -12,7 +12,7 @@ const Footer = () => {
             <FaLocationDot className='w-[14px] h-[14px] text-background'/>
           </div>
           <div>
-            <p className='text-sm'>Address</p>
+            <p className='text-sm text-background'>Address</p>
             <h2 className='text-md font-semibold text-background'>Bole Street</h2>
           </div>
         </div>
@@ -21,7 +21,7 @@ const Footer = () => {
             <FaPhone className='w-[14px] h-[14px] text-background'/>
           </div>
           <div>
-            <p className='text-sm'>Phone</p>
+            <p className='text-sm text-background'>Phone</p>
             <h2 className='text-md font-semibold text-background'>0912841695/ 0912646315/ 0912343660</h2>
           </div>
         </div>
@@ -30,7 +30,7 @@ const Footer = () => {
             <FaEnvelope className='w-[14px] h-[14px] text-background'/>
           </div>
           <div>
-            <p className='text-sm'>Email</p>
+            <p className='text-sm text-background'>Email</p>
             <h2 className='text-md font-semibold text-background'>info@nova.et</h2>
             <h2 className='text-md font-semibold text-background'>kaleab@nova.et</h2>
             <h2 className='text-md font-semibold text-background'>kaleb@nova.et</h2>
@@ -49,19 +49,19 @@ const Footer = () => {
             <ul className='flex flex-col gap-6'>
               <li><Link className='flex flex-row items-center gap-2' href="/home"><FaChevronRight /><h3>Home</h3></Link></li>
               <li><Link className='flex flex-row items-center gap-2' href="/about"><FaChevronRight /><h3>About Us</h3></Link></li>
-              <li><Link className='flex flex-row items-center gap-2' href="/blog"><FaChevronRight /><h3>Blog</h3></Link></li>
+              {/* <li><Link className='flex flex-row items-center gap-2' href="/blog"><FaChevronRight /><h3>Blog</h3></Link></li> */}
               <li><Link className='flex flex-row items-center gap-2' href="/pricing"><FaChevronRight /><h3>Pricing</h3></Link></li>
             </ul> 
             <ul className='flex flex-col gap-6'> 
               <li><Link className='flex flex-row items-center gap-2' href="/contact"><FaChevronRight /><h3>Contact Us</h3></Link></li>
-              <li><Link className='flex flex-row items-center gap-2' href="#"><FaChevronRight /><h3>Account</h3></Link></li>
-              <li><Link className='flex flex-row items-center gap-2' href="#"><FaChevronRight /><h3>Media Center</h3></Link></li>
-              <li><Link className='flex flex-row items-center gap-2' href="#"><FaChevronRight /><h3>Ways to watch</h3></Link></li>
+              <li><Link className='flex flex-row items-center gap-2' href="/about#testimonials"><FaChevronRight /><h3>Testimonials</h3></Link></li>
+              <li><Link className='flex flex-row items-center gap-2' href="/home#clients"><FaChevronRight /><h3>Clients</h3></Link></li>
+              {/* <li><Link className='flex flex-row items-center gap-2' href="#"><FaChevronRight /><h3>Ways to watch</h3></Link></li> */}
             </ul>  
             <ul className='flex flex-col gap-6'>  
-              <li><Link className='flex flex-row items-center gap-2' href="#"><FaChevronRight /><h3>Terms of Services</h3></Link></li>
-              <li><Link className='flex flex-row items-center gap-2' href="#"><FaChevronRight /><h3>Privacy Policy</h3></Link></li>
-              <li><Link className='flex flex-row items-center gap-2' href="#"><FaChevronRight /><h3>Terms of Uses</h3></Link></li>
+              <li><Link className='flex flex-row items-center gap-2' href="/home#faq"><FaChevronRight /><h3>FAQs</h3></Link></li>
+              <li><Link className='flex flex-row items-center gap-2' href="/pricing"><FaChevronRight /><h3>Pricing</h3></Link></li>
+              <li><Link className='flex flex-row items-center gap-2' href="/services#ourservices"><FaChevronRight /><h3>Our Services</h3></Link></li>
             </ul>
           </div>
         </div>

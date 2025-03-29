@@ -12,19 +12,21 @@ interface TestimonialProps {
 }
 interface TestimonialCardProps {
   text: string;
+  name?: string;
 }
 
-const TestimonialCard: React.FC<TestimonialCardProps> = ({ text }) => {
+const TestimonialCard: React.FC<TestimonialCardProps> = ({ text, name }) => {
   return (
-    <div className="border-2 border-blue-600 p-6 rounded-lg">
+    <div className="border-2 border-blue-600 p-6 rounded-lg flex flex-col items-start justify-center">
       <p className="text-gray-700 italic">{text}</p>
+      <p className="text-blue-600 italic">{name}</p>
     </div>
   );
 };
 
 const Testimonials: React.FC<TestimonialProps> = ({ backgroundImage }) => {
   return (
-    <div className="bg-cover bg-center  py-20 px-20" style={{ backgroundImage: `url(${backgroundImage})` }}>
+    <div id="testimonials" className="bg-cover bg-center  py-20 px-20" style={{ backgroundImage: `url(${backgroundImage})` }}>
       <div className="text-center mb-16">
         <h2 className="text-4xl font-bold text-blue-600">
           Creating A Community of Life Long Relations
@@ -34,13 +36,15 @@ const Testimonials: React.FC<TestimonialProps> = ({ backgroundImage }) => {
       <Carousel
         opts={{
           align: "start",
+          loop: true 
         }}
+        autoPlayInterval={3000} 
         className="w-[80%] mx-auto"
       >
         <CarouselContent>
           {testimonials.slice(0, 5).map((testimonial, index) => (
             <CarouselItem key={index} className="md:basis-1/2 lg:basis-1/3">
-              <TestimonialCard text={testimonial.text} />
+              <TestimonialCard text={testimonial.text} name={testimonial.name} />
             </CarouselItem>
           ))}
         </CarouselContent>

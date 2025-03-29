@@ -4,7 +4,7 @@ import { IoMdCheckmark } from "react-icons/io";
 
 const CustomAppsWebsites: React.FC = () => {
   return (
-    <section className="bg-gradient-to-r from-blue-800 to-black text-white py-12 px-6 rounded-2xl my-12 mx-auto w-[70%]">
+    <section id="customweb" className="bg-gradient-to-r from-blue-800 to-black text-white py-12 px-6 rounded-2xl my-12 mx-auto w-[70%]">
       <div className="text-center mb-6">
         <h2 className="text-2xl md:text-3xl font-bold">
           Custom Apps & Websites: Your Brand, Your Way
