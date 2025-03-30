@@ -33,7 +33,15 @@ const StreamingFeature = () => {
               and unmatched reliability, we empower broadcasters to succeed in
               the rapidly evolving digital era.
             </p>
-            <Button className="bg-green-500 text-white font-semibold py-3 px-4 rounded-2xl flex items-center space-x-2 hover:bg-blue-600 mt-3 ">
+            <Button
+              className="bg-green-500 text-white font-semibold py-3 px-4 rounded-2xl flex items-center space-x-2 hover:bg-blue-600 mt-3 "
+              onClick={() => {
+                window.scrollTo({
+                  top: window.scrollY + 800, 
+                  behavior: "smooth",
+                });
+              }}
+            >
               <span className="text-sm">Explore More</span>
               <FaArrowAltCircleRight size={45} />
             </Button>
