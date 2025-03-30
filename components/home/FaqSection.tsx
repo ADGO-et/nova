@@ -16,7 +16,7 @@ const FaqSection = () => {
                 <h1 className='text-2xl md:text-4xl'>Frequently Asked Questions</h1>
                 <p className="text-sm">Got questions? We have got answers! Check out our FAQ section to find answers to the most common questions about Nova Stream.</p>
             </div>
-            <Link href='/contact' className='bg-foreground text-background w-fit h-fit py-2 px-4 rounded-lg'>Ask a Question</Link>
+            <Link href='/contact' className='bg-foreground text-background w-fit h-fit py-2 px-4 rounded-lg hover:scale-105 duration-300'>Ask a Question</Link>
         </div>
         <div className="flex flex-col md:flex-row gap-12">
             <div className="md:w-[50%]">
