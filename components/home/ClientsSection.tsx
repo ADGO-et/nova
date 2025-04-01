@@ -13,9 +13,9 @@ const ClientsSection: React.FC = () => {
         {clients.map((client, index) => (
           <div
             key={index}
-            className="bg-white px-4 py-0 mx-8 rounded-full shadow-md flex items-center justify-center w-64 h-28 relative"
+            className="bg-white px-4 py-0 mx-8 rounded-full shadow-md flex items-center justify-center w-48 h-20 relative"
           >
-            <Image src={client.src} alt={client.name} fill className={`rounded-full object-contain ${client.name === "Websprix" ? "py-3" : ""}  ${client.name === "RingCloud" ? "py-5" : ""}`} />
+            <Image src={client.src} alt={client.name} fill className={`rounded-full object-contain ${client.name === "Websprix" ? "py-3" : ""}  ${client.name === "RingCloud" ? " py-3" : ""}`} />
           </div>
         ))}
       </Marquee>

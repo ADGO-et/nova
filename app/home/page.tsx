@@ -13,8 +13,8 @@ const page = () => {
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <h1 className='mx-auto text-center text-2xl md:text-5xl font-bold text-white relative z-9'>Empower Your Platform – Seamless Streaming and Monetization with Nova</h1>
         <Link href='/services' className="bg-blue-800 text-white font-semibold py-3 px-4 rounded-xl flex items-center space-x-2 hover:bg-blue-600 hover:scale-105 duration-300 relative z-9">
-          <span className='text-sm'>Get Started Today</span>
-          <FaArrowAltCircleRight size={25} />
+          <span className='text-sm hover:animate-horizontal'>Get Started Today</span>
+          <FaArrowAltCircleRight size={25} className='hover:animate-horizontal' />
         </Link>
       </div>
       <Services/>

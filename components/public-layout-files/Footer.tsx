@@ -31,9 +31,9 @@ const Footer = () => {
           </div>
           <div>
             <p className='text-sm text-background'>Email</p>
-            <h2 className='text-md font-semibold text-background'>info@nova.et</h2>
-            <h2 className='text-md font-semibold text-background'>kaleab@nova.et</h2>
-            <h2 className='text-md font-semibold text-background'>kaleb@nova.et</h2>
+            <h2 className='text-md font-semibold text-background'>info@novastream.et</h2>
+            <h2 className='text-md font-semibold text-background'>kaleab@novastream.et</h2>
+            <h2 className='text-md font-semibold text-background'>kaleb@novastream.et</h2>
           </div>
         </div>
       </div>

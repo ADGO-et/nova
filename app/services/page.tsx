@@ -2,6 +2,7 @@ import React from 'react'
 import Services from '../../components/services/services'
 import Features from '../../components/services/features'
 import ServicesHeader from '../../components/services/services_header'
+import { PlayoutServiceSection } from '@/components/services/PlayoutServiceSection';
 
 const page = () => {
   return (
@@ -9,6 +10,7 @@ const page = () => {
       <ServicesHeader />
       <Services />
       <Features />
+      <PlayoutServiceSection/>
     </div>
   );
 };
