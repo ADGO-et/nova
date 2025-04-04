@@ -42,7 +42,7 @@ export function PlayoutServiceSection() {
   ]
 
   return (
-    <section className="w-full md:w-[80%] mx-auto py-12 md:py-24 lg:py-32 bg-gradient-to-b from-background to-muted">
+    <section className="w-full md:w-[80%] mb-40 mx-auto bg-gradient-to-b from-background to-muted">
       <div className="container px-4 md:px-6">
         <div className="flex flex-col justify-center space-y-4 max-w-[800px] mx-auto mb-16">
           <div className="space-y-2">
